@@ -1,13 +1,3 @@
-noinst_PROGRAMS		= mic mis		# Build, but don't install
-
-AM_CPPFLAGS		= -I$(top_srcdir)/src
-
-mic_SOURCES		= mic.c
-mic_CFLAGS		= -g
-mic_LDADD		= ../src/libiperf.la
-mic_LDFLAGS		= -g
-
-mis_SOURCES		= mis.c
-mis_CFLAGS		= -g
-mis_LDADD		= ../src/libiperf.la
-mis_LDFLAGS		= -g
+version https://git-lfs.github.com/spec/v1
+oid sha256:9dda80758c2391b356ed06f2d4e92d7eac707c9059d53fba3b6805eb0e3b9ae3
+size 269
